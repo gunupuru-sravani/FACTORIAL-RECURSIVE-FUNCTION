@@ -1,0 +1,19 @@
+/* g.sravani awdc rjy assignment 2*/
+#include <stdio.h>
+ void main()
+ {
+     int n,f;
+     printf("enter a number");
+     scanf("%d",&n);
+     f=factorial(n);
+     printf("factorial=%d",f);
+     
+ }
+ int factorial(int n)
+ {
+     if(n==1)
+     return 1;
+     else
+     return(n*factorial(n-1));
+ }
+ 
